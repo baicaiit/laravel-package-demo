@@ -17,5 +17,12 @@
     "psr-4": {
       "Baicaiit\\Hasher\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Baicaiit\\Hasher\\ServiceProvider"
+      ]
+    }
   }
 }
