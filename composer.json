@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Baicaiit\\Hasher\\ServiceProvider"
+        "Baicaiit\\Hasher\\MD5HasherProvider"
       ]
     }
   }
