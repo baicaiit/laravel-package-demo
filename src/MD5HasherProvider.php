@@ -13,7 +13,7 @@ class MD5HasherProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__ . '/../config/md5hasher.php' => config_path('md5hasher.php')], 'config');
+        $this->publishes([__DIR__ . '/../config/md5hasher.php' => config_path('md5hasher.php')]);
     }
 
     /**
